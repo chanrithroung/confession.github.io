@@ -35,4 +35,5 @@ btnNo.addEventListener("click", function () {
 btnYes.addEventListener('click', function(){
   containImages.src = 'milk-and-mocha.gif';
   mainText.innerHTML = 'Tos tv nham ey nv IFL tomorrow.';
+  btnNo.style.display = 'none';
 });

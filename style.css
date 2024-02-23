@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+:root {
+  --bacground-color: #eddcd4;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-box {
+  padding: 0%;
+  width: 350px;
+  height: fit-content;
+}
+
+/* @media only screen 
+  and (device-width: 375px) 
+  and (device-height: 812px) 
+  and (-webkit-device-pixel-ratio: 3) {
+    .container{
+        height: 450px;
+        width: 250px;
+    } 
+} */
+.container {
+  width: 100%;
+}
+.main-box {
+  margin: auto;
+}
+
+.text {
+  text-align: center;
+  padding: 10px;
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  color: hsl(0, 100%, 50%);
+  font-style: normal;
+}
+@media (max-width: 400px) {
+  .main-box {
+    margin: auto;
+    width: 250px;
+    height: fit-content;
+  }
+  .images-box {
+    width: 100%;
+    height: fit-content;
+  }
+  .btn-yes {
+    width: 130px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+  }
+  .btn-no {
+    margin: 10px;
+    height: 40px;
+    width: 130px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 1px solid #ff0000;
+    border-radius: 20px;
+  }
+}
+.btn-yes {
+  width: 130px;
+  height: 40px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+}
+.btn-no {
+  margin: 10px;
+  height: 40px;
+  width: 130px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 1px solid #ff0000;
+  border-radius: 20px;
+}
+.btn-box {
+  padding: 20px;
+  width: fit-content;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+  object-fit: contain;
+}
+
+button {
+  transition: all 0.2s ease;
+}
+
+button:active {
+  transform: scale(0.8);
+}

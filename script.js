@@ -5,10 +5,10 @@ var btnYes = document.getElementById("btn-yes");
 
 const images = ["sadcat.jpg", "sadcat_images2.jpg", "cat-sad.gif", "last.jpg"];
 const text = [
-  "Don do this to me! please click button yes.",
+  "Please click button yes.",
   "Why you click no again?",
-  "So sad to see you click no 3 time.",
-  "Sorry. Ber you min click tt dg tver mej teh",
+  "It's so sad to see you click no 3 time.",
+  "Jg tv nah hah! sot tea sach",
 ];
 
 let i = 0;
